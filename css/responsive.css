@@ -10,6 +10,13 @@
 		right: 12%;
 	}
 }
+
+@media only screen and (max-width:600px){
+	.logo a img{
+   height: 60px ;
+   width: 60px;
+	}
+}
 @media only screen and (max-width: 1600px){
 	.banner-section .content-column .content-inner{
 		margin-left: 25%;
