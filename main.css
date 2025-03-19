@@ -1,0 +1,104 @@
+/* Styling for the blog posts container */
+
+#blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 15%;
+  }
+  
+  /* Styling each individual post container */
+  .post-container {
+    width: 100%;
+    max-width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the featured image */
+  .post-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Styling the content part of the post */
+  .post-content {
+    padding: 20px;
+  }
+  
+  /* Post title */
+  .post-content h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #01156e;
+  }
+  
+  /* Excerpt text */
+  .post-excerpt {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Styling the publish date */
+  .post-date {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the "Read More" link */
+  .read-more {
+    display: inline-block;
+    font-size: 16px;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Footer Styles */
+.footer {
+    background-color: rgb(49,0,174);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; /* Centers the logo */
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
