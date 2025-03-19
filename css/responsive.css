@@ -2213,7 +2213,8 @@
 ***/
 @media only screen and (max-width: 1440px){
 	.rtl .progress-sec .progress-bg {
-	    s
+	    
+}
 }
 @media only screen and (max-width: 1439px){
 	.rtl .service-block-three:nth-child(2) {
